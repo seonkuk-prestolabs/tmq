@@ -24,3 +24,6 @@ criterion = "0.5"
 [[bench]]
 name = "poll"
 harness = false
+
+[patch.crates-io]
+zmq = { git = "https://github.com/seonkuk-prestolabs/rust-zmq", branch = "0.10.0-libzmq-4.3.5" }
